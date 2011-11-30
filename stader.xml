@@ -8,9 +8,12 @@
      <tatort> = Stadens innvånar antal + det rankingen utgår ifrån
      <storstads> = Invånarantal med storstadsområdet inräknat
      <yta> = Ytan av kommunen räknat i kvadratkilometer
-     <dummy> = En kompromiss för att få titlen i mitten och utanför tabellen se css för mer info
+     <dummy> = En kompromiss för att få titlen i mitten och utanför tabellen se css <dummy> för mer info
      <lanskap> = Landskap
-     kvkm = kvadratkilometer
+     enhet = Enheten som beskriver kvadratkilometer och med hjälp av "attr(enhet)" i css så läggs det på efter siffrorna
+     kvkm = Kvadratkilometer
+     class="hov" = Ett attribut som gör att raderna förstoras när man har muspekaren på dem, se i css [class="hov"] för mer info
+     Github test 2
 -->
 <stader>
     <title><dummy>Sveriges 10 Största Städer</dummy></title>
