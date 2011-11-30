@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="stader.css" ?>
+<!-- En xml vokabulär som beskriver Sveriges tio största städer
+    Utgår från de svenska orden men tagit bort "åäö" och ersatt med "oa" för att inte få problem med taggarna för icke svensktalande personer 
+    Tagg betydelse:
+     <rang> = Rankingen enligt befolkningsmänden
+     <title> = Rubriken på sidan alltså "Sverige 10 Största Städer"
+     <tatort> = Stadens innvånar antal + det rankingen utgår ifrån
+     <storstads> = Invånarantal med storstadsområdet inräknat
+     <yta> = Ytan av kommunen räknat i kvadratkilometer
+     <dummy> = En kompromiss för att få titlen i mitten och utanför tabellen se css för mer info
+     <lanskap> = Landskap
+     kvkm = kvadratkilometer
+-->
+<stader>
+    <title><dummy>Sveriges 10 Största Städer</dummy></title>
+        <stad class="hov">
+        <rang>1</rang>
+            <namn>Stockholm</namn>
+            <folkmangd>
+                <tatort>1372565</tatort>
+                <storstads>2084526</storstads>
+            </folkmangd>
+            <landskap>Södermanland och Uppland</landskap>
+            <yta enhet="kvkm">6519</yta>
+        </stad>
+        <stad class="hov">
+        <rang>2</rang>
+            <namn>Göteborg</namn>
+            <folkmangd>
+                <tatort>549839</tatort>
+                <storstads>937015</storstads>
+            </folkmangd>
+            <landskap>Västra Götaland och Bohuslän</landskap>
+            <yta enhet="kvkm">3718</yta>
+        </stad>
+                <stad class="hov">
+                <rang>3</rang>
+            <namn>Malmö</namn>
+            <folkmangd>
+                <tatort>280415</tatort>
+                <storstads>661695</storstads>
+            </folkmangd>
+            <landskap>Skåne</landskap>
+            <yta enhet="kvkm">2535</yta>
+        </stad>
+                <stad class="hov">
+                <rang>4</rang>
+            <namn>Uppsala</namn>
+            <folkmangd>
+                <tatort>140454</tatort>
+                <storstads>199650</storstads>
+            </folkmangd>
+            <landskap>Uppland</landskap>
+            <yta enhet="kvkm">1404</yta>
+        </stad>
+                <stad class="hov">
+                <rang>5</rang>
+            <namn>Västerås</namn>
+            <folkmangd>
+                <tatort>110887</tatort>
+                <storstads>138293</storstads>
+            </folkmangd>
+            <landskap>Västmanland</landskap>
+            <yta enhet="kvkm">1143</yta>
+        </stad>
+                <stad class="hov">
+                <rang>6</rang>
+            <namn>Örebro</namn>
+            <folkmangd>
+                <tatort>107038</tatort>
+                <storstads>136293</storstads>
+            </folkmangd>
+            <landskap>Närke</landskap>
+            <yta enhet="kvkm">1380</yta>
+        </stad>
+        <stad class="hov">
+        <rang>7</rang>
+            <namn>Linköping</namn>
+            <folkmangd>
+                <tatort>104232</tatort>
+                <storstads>147335</storstads>
+            </folkmangd>
+            <landskap>Östergötland</landskap>
+            <yta enhet="kvkm">1575</yta>
+        </stad>
+        <stad class="hov">
+        <rang>8</rang>
+            <namn>Helsingborg</namn>
+            <folkmangd>
+                <tatort>97122</tatort>
+                <storstads>130250</storstads>
+            </folkmangd>
+            <landskap>Skåne</landskap>
+            <yta enhet="kvkm">346</yta>
+        </stad>
+        <stad class="hov">
+        <rang>9</rang>
+            <namn>Jönköping</namn>
+            <folkmangd>
+                <tatort>89396</tatort>
+                <storstads>128230</storstads>
+            </folkmangd>
+            <landskap>Småland</landskap>
+            <yta enhet="kvkm">1488</yta>
+        </stad>
+        <stad class="hov">
+        <rang>10</rang>
+            <namn>Norrköping</namn>
+            <folkmangd>
+                <tatort>87247</tatort>
+                <storstads>130671</storstads>
+            </folkmangd>
+            <landskap>Östergötland</landskap>
+            <yta enhet="kvkm">1612</yta>
+        </stad>
+</stader>

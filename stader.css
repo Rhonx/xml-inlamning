@@ -1,0 +1,79 @@
+stader {
+    display: table;
+    margin: 40px auto;
+    font-family: Tahoma;
+    font-size: 12pt;
+    width: 900px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+title {
+    display: table-row;
+}
+dummy {
+    position: absolute;
+    top: 5px;
+    text-align: center;
+    width: 900px;
+    font-weight: bold;
+}
+stad {
+    display: table-row;
+    margin: 2px;
+}
+folkmangd::before {
+    content: "Invånare:";
+}
+landskap::before {
+    content: "Landskap: ";
+}
+rang::after {
+    content: ".";
+}
+namn, folkmangd, landskap, yta {
+    display: table-cell;
+    padding: 4px;
+    width: 80px;
+}
+rang {
+    display: table-cell;
+    width: 10px;
+}
+namn {
+    font-weight: bold;
+}
+yta::after {
+    content: attr(enhet) ;
+}
+yta::before {
+    content: "Yta: ";
+}
+tatort::before {
+    content: "Tätort: ";
+}
+storstads::before {
+    content: "Storstadsområde: ";
+}
+tatort, storstads {
+    display: table-row;
+}
+stad:nth-child(even) {
+    background-color: yellow;
+    background:    -moz-linear-gradient(62% 43% 0deg,#F7FF08, #FAC800);
+    background: -webkit-linear-gradient(62% 43% 0deg,#F7FF08, #FAC800);
+    background:      -o-linear-gradient(62% 43% 0deg,#F7FF08, #FAC800);
+    background:     -ms-linear-gradient(62% 43% 0deg,#F7FF08, #FAC800);
+}
+stad:nth-child(odd) {
+    background-color: blue;
+    background:    -moz-linear-gradient(74% 43% 180deg,#13075C, #370994);
+    background: -webkit-linear-gradient(62% 43% 180deg,#13075C, #370994);
+    background:      -o-linear-gradient(62% 43% 180deg,#13075C, #370994);
+    background:     -ms-linear-gradient(62% 43% 180deg,#13075C, #370994);
+    color: white;
+}
+[class="hov"]:hover {
+    font-style: oblique;
+    font-weight: bold;
+}
+    
